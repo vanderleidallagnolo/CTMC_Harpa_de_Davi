@@ -1169,7 +1169,8 @@
 		min-height: 70vh;
 		background-image: url("../../images/banner.jpg");
 		background-position: center;
-		background-size: cover;
+		background-size: auto;
+		/* background-size: cover; */
 		background-repeat: no-repeat;
 		border-top: 0;
 		position: relative;
