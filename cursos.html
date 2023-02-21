@@ -18,7 +18,7 @@
 
 		<script>
 
-			const CONTATO_PROFO_TIAGO 		= 0;
+			const CONTATO_CURSO_CANTO 		= 0;
 			const CONTATO_PROFA_MICHELE 	= 1;
 			const CONTATO_PROFA_ADRIANA 	= 2;
 			const CONTATO_PROFA_KARIN 		= 3;
@@ -29,23 +29,28 @@
 
 				switch (pService) 
 				{
-					case CONTATO_PROFO_TIAGO:
-						window.open("https://wa.me/+554792764113?text=Contato%20Prof%20Tiago");
+					case CONTATO_CURSO_CANTO:
+						window.open("https://wa.me/+554792764113?text=Contato%20Curso%20Canto");
 						return false;
 						break;
 				
-					case CONTATO_PROFA_MICHELE:
-						window.open("https://wa.me/+554792764113?text=Contato%20Professora%20Michele");
+					case CONTATO_CURSO_PIANO:
+						window.open("https://wa.me/+554792764113?text=Contato%20Curso%20Piano");
 						return false;
 						break;
 				
-					case CONTATO_PROFA_ADRIANA:
-						window.open("https://wa.me/+554792764113?text=Contato%20Professoria%20Adriana");
+					case CONTATO_CURSO_VIOLAO:
+						window.open("https://wa.me/+554792764113?text=Contato%20Curso%20Violao");
 						return false;
 						break;
 			
-					case CONTATO_PROFA_KARIN:
-						window.open("https://wa.me/+554792764113?text=Contato%20Professoria%20Karin");
+						case CONTATO_CURSO_BAIXO:
+						window.open("https://wa.me/+554792764113?text=Contato%20Curso%20Baixo");
+						return false;
+						break;
+			
+						case CONTATO_CURSO_GUITARRA:
+						window.open("https://wa.me/+554792764113?text=Contato%20Curso%20Guitarra");
 						return false;
 						break;
 			
@@ -87,11 +92,11 @@
 						<div class="thumbnails">
 
 							<div class="box">
-								<img onclick="fAbreWhats(CONTATO_PROFO_TIAGO);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/prof_tiago.png" alt="" /></a>
+								<img onclick="fAbreWhats(CONTATO_CURSO_CANTO);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/canto.png" alt="" /></a>
 							</div>
 
 							<div class="box">
-								<p style="font-weight: bold; font-size: 26px;">Profº Tiago</p>
+								<p style="font-weight: bold; font-size: 26px;">Curso de Canto</p>
 								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 							</div>
 
@@ -100,24 +105,11 @@
 						<div class="thumbnails">
 
 							<div class="box">
-								<img onclick="fAbreWhats(CONTATO_PROFA_MICHELE);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/prof_michele.png" alt="" /></a>
+								<img onclick="fAbreWhats(CONTATO_CURSO_PIANO);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/piano.png" alt="" /></a>
 							</div>
 
 							<div class="box">
-								<p style="font-weight: bold; font-size: 26px;">Profª Michele</p>
-								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-							</div>
-							
-						</div>
-
-						<div class="thumbnails">
-
-							<div class="box">
-								<img onclick="fAbreWhats(CONTATO_PROFA_ADRIANA);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/prof_adriana.png" alt="" /></a>
-							</div>
-
-							<div class="box">
-								<p style="font-weight: bold; font-size: 26px;">Profª Adriana</p>
+								<p style="font-weight: bold; font-size: 26px;">Curso de Piano,<br>Piano Popular e<br>Teclado</p>
 								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 							</div>
 							
@@ -126,11 +118,37 @@
 						<div class="thumbnails">
 
 							<div class="box">
-								<img onclick="fAbreWhats(CONTATO_PROFA_KARIN);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/prof_karin.png" alt="" /></a>
+								<img onclick="fAbreWhats(CONTATO_CURSO_VIOLAO);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/violao.png" alt="" /></a>
 							</div>
 
 							<div class="box">
-								<p style="font-weight: bold; font-size: 26px;">Profª Karin</p>
+								<p style="font-weight: bold; font-size: 26px;">Curso de Violão</p>
+								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							</div>
+							
+						</div>
+
+						<div class="thumbnails">
+
+							<div class="box">
+								<img onclick="fAbreWhats(CONTATO_CURSO_BAIXO);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/baixo.png" alt="" /></a>
+							</div>
+
+							<div class="box">
+								<p style="font-weight: bold; font-size: 26px;">Curso de Baixo</p>
+								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							</div>
+							
+						</div>
+
+						<div class="thumbnails">
+
+							<div class="box">
+								<img onclick="fAbreWhats(CONTATO_CURSO_GUITARRA);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/guitarra.png" alt="" /></a>
+							</div>
+
+							<div class="box">
+								<p style="font-weight: bold; font-size: 26px;">Curso de Guitarra</p>
 								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 							</div>
 							

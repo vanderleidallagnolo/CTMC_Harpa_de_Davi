@@ -18,34 +18,28 @@
 
 		<script>
 
-			const CONTATO_PROFO_TIAGO 		= 0;
-			const CONTATO_PROFA_MICHELE 	= 1;
-			const CONTATO_PROFA_ADRIANA 	= 2;
-			const CONTATO_PROFA_KARIN 		= 3;
-			const CONTATO_RODAPE			= 4;
+			const CONTATO_SERVICO_PRODUCAO 		= 0;
+			const CONTATO_SERVICO_COMPOSICAO	= 1;
+			const CONTATO_SERVICO_ARRANJO 		= 2;
+			const CONTATO_RODAPE				= 3;
 
 			function fAbreWhats(pService)
 			{
 
 				switch (pService) 
 				{
-					case CONTATO_PROFO_TIAGO:
+					case CONTATO_SERVICO_PRODUCAO:
 						window.open("https://wa.me/+554792764113?text=Contato%20Prof%20Tiago");
 						return false;
 						break;
 				
-					case CONTATO_PROFA_MICHELE:
+					case CONTATO_SERVICO_COMPOSICAO:
 						window.open("https://wa.me/+554792764113?text=Contato%20Professora%20Michele");
 						return false;
 						break;
 				
-					case CONTATO_PROFA_ADRIANA:
+					case CONTATO_SERVICO_ARRANJO:
 						window.open("https://wa.me/+554792764113?text=Contato%20Professoria%20Adriana");
-						return false;
-						break;
-			
-					case CONTATO_PROFA_KARIN:
-						window.open("https://wa.me/+554792764113?text=Contato%20Professoria%20Karin");
 						return false;
 						break;
 			
@@ -87,11 +81,11 @@
 						<div class="thumbnails">
 
 							<div class="box">
-								<img onclick="fAbreWhats(CONTATO_PROFO_TIAGO);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/prof_tiago.png" alt="" /></a>
+								<img onclick="fAbreWhats(CONTATO_SERVICO_PRODUCAO);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/producao.png" alt="" /></a>
 							</div>
 
 							<div class="box">
-								<p style="font-weight: bold; font-size: 26px;">Profº Tiago</p>
+								<p style="font-weight: bold; font-size: 26px;">Produção</p>
 								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 							</div>
 
@@ -100,11 +94,11 @@
 						<div class="thumbnails">
 
 							<div class="box">
-								<img onclick="fAbreWhats(CONTATO_PROFA_MICHELE);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/prof_michele.png" alt="" /></a>
+								<img onclick="fAbreWhats(CONTATO_SERVICO_COMPOSICAO);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/composicao.png" alt="" /></a>
 							</div>
 
 							<div class="box">
-								<p style="font-weight: bold; font-size: 26px;">Profª Michele</p>
+								<p style="font-weight: bold; font-size: 26px;">Composição</p>
 								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 							</div>
 							
@@ -113,30 +107,15 @@
 						<div class="thumbnails">
 
 							<div class="box">
-								<img onclick="fAbreWhats(CONTATO_PROFA_ADRIANA);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/prof_adriana.png" alt="" /></a>
+								<img onclick="fAbreWhats(CONTATO_SERVICO_ARRANJO);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/arranjo.png" alt="" /></a>
 							</div>
 
 							<div class="box">
-								<p style="font-weight: bold; font-size: 26px;">Profª Adriana</p>
+								<p style="font-weight: bold; font-size: 26px;">Arranjo</p>
 								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 							</div>
 							
 						</div>
-
-						<div class="thumbnails">
-
-							<div class="box">
-								<img onclick="fAbreWhats(CONTATO_PROFA_KARIN);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/prof_karin.png" alt="" /></a>
-							</div>
-
-							<div class="box">
-								<p style="font-weight: bold; font-size: 26px;">Profª Karin</p>
-								<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-							</div>
-							
-						</div>
-
-
 					</div>
 				</div>
 
