@@ -1241,23 +1241,41 @@
 				border: none;
 			}
 
-		#banner .more {
-			background-image: url("images/arrow.svg");
-			background-position: center 1.35em;
-			background-repeat: no-repeat;
-			background-size: auto;
-			border: 1px solid #fff;
-			border-radius: 100%;
-			color: rgba(255, 255, 255, 0.75);
-			display: block;
-			height: 4em;
-			text-indent: 4em;
-			overflow: hidden;
-			white-space: nowrap;
-			width: 4em;
-			z-index: 2;
-			margin: 0 auto 2em auto;
-		}
+			#banner .more {
+				background-image: url("images/arrow.svg");
+				background-position: center 1.35em;
+				background-repeat: no-repeat;
+				background-size: auto;
+				border: 1px solid #fff;
+				border-radius: 100%;
+				color: rgba(255, 255, 255, 0.75);
+				display: block;
+				height: 4em;
+				text-indent: 4em;
+				overflow: hidden;
+				white-space: nowrap;
+				width: 4em;
+				z-index: 2;
+				margin: 0 auto 2em auto;
+			}
+
+			#banner .moreleft {
+				background-image: url("images/left-arrow-svgrepo-com.svg");
+				background-position: center 1.35em;
+				background-repeat: no-repeat;
+				background-size: auto;
+				border: 1px solid #fff;
+				border-radius: 100%;
+				color: rgba(255, 255, 255, 0.75);
+				display: block;
+				height: 4em;
+				text-indent: 4em;
+				overflow: hidden;
+				white-space: nowrap;
+				width: 4em;
+				z-index: 2;
+				margin: 0 auto 2em auto;
+			}
 
 			#banner .more:hover {
 				background-color: rgba(255, 255, 255, 0.05);
