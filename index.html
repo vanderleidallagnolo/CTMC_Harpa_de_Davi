@@ -16,6 +16,48 @@
 	</head>
 	<body id="top">
 
+		<script>
+
+			const PAGE_PROFESSORES 	= 0;
+			const PAGE_CURSOS 		= 1;
+			const PAGE_SERVICOS 	= 2;
+			const CONTATO_RODAPE	= 3;
+
+			function fAbreWhats(pService)
+			{
+
+				switch (pService) 
+				{
+					case PAGE_PROFESSORES:
+						window.open("https://wa.me/554797394946?text=Assistência%20celulares");
+						return false;
+						break;
+				
+					case PAGE_CURSOS:
+						window.open("https://wa.me/554797394946?text=Assistência%20tablets");
+						return false;
+						break;
+				
+					case PAGE_SERVICOS:
+						window.open("https://wa.me/554797394946?text=Venda%20smartphone");
+						return false;
+						break;
+			
+					case CONTATO_RODAPE:
+						window.open("https://wa.me/554797394946?text=Contato%20site");
+						return false;
+						break;
+				
+					default:
+						break;
+				}
+				
+			}
+			// function fAbreWhats(pService)
+		
+		</script>
+
+
 			<!-- Banner -->
 			<!--
 				To use a video as your background, set data-video to the name of your video without
@@ -40,7 +82,8 @@
 						<div class="thumbnails">
 
 							<div class="box">
-								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/music-lessons.jpg" alt="" /></a>
+								<!-- <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/music-lessons.jpg" alt="" /></a> -->
+								<img onclick="fAbreWhats(PAGE_PROFESSORES);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/music-lessons.jpg" alt="" /></a>
 								<div class="inner">
 									<h3>Professores</h3>
 									<!-- <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p> -->
@@ -49,7 +92,8 @@
 							</div>
 
 							<div class="box">
-								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/music_courses.jpg" alt="" /></a>
+								<!-- <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/music_courses.jpg" alt="" /></a> -->
+								<img onclick="fAbreWhats(PAGE_CURSOS);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/music_courses.jpg" alt="" /></a>
 								<div class="inner">
 									<h3>Cursos</h3>
 									<!-- <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p> -->
@@ -58,7 +102,8 @@
 							</div>
 
 							<div class="box">
-								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/music_services.jpg" alt="" /></a>
+								<!-- <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/music_services.jpg" alt="" /></a> -->
+								<img onclick="fAbreWhats(PAGE_SERVICOS);" onmouseover=" this.style.cursor = 'pointer';" class="image fit" src="images/music_services.jpg" alt="" /></a>
 								<div class="inner">
 									<h3>Serviços</h3>
 									<!-- <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p> -->
@@ -101,9 +146,12 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<div class="inner">
-						<h2>Etiam veroeros lorem</h2>
-						<p>Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </p>
-
+						<h2>Por que Harpa de Davi?</h2>
+						<p>De acordo com as escrituras, o Senhor se afastou dele e um espírito mal se apossou de Saul, que tinha muitas crises. Quando se sentia triste e angustiado, ele chamava Davi (ainda menino) para tocar a harpa e adorar a Deus com seus louvores. E ele se sentia melhor diante da adoração de Davi.</p>
+						<p>O CTMC Harpa de Davi está à disposição para oferecer-lhe a melhor formação cristã em música
+							<br>Estamos localizados na <a href="https://www.google.com/maps/search/R.%20Lazio%2C%20152%20-%20Vila%20Nova%2C%20Blumenau%20-%20SC%2C%2089035-038%2C%20Brasil/@-26.9081,-49.0853,17z?hl=pt-BR" target="_blank">Rua Lazio, 152 - Vila Nova, Blumenau - SC, 89035-038, Brasil</a>
+							<br>Contato pelo Whats App no <a href="#" onclick="fAbreWhats(CONTATO_RODAPE);">+55 47 9276-4113</a></p>
+	 
 						<ul class="icons">
 							<li><a href="https://www.google.com/maps/search/R.%20Lazio%2C%20152%20-%20Vila%20Nova%2C%20Blumenau%20-%20SC%2C%2089035-038%2C%20Brasil/@-26.9081,-49.0853,17z?hl=pt-BR" target="_blank" class="icon fa-map-marker"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.facebook.com/CTMCBnu" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
